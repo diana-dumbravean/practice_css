@@ -1,0 +1,322 @@
+body{
+	line-height: 1.5;
+	font-family:"Poppins", sans-serif;
+	font-size:16px;
+	font-style:bold;
+}
+
+
+
+
+.container-sidebar {
+	z-index: 3;
+    width: 300px;
+	height:100%;
+	color: #fff;
+    background-color: #f44336;
+	position: fixed;
+	overflow: auto;
+	box-sizing: inherit;
+	float:left;
+	
+	
+}
+
+.side-heading{
+	padding:16px;
+	width:200px;
+	
+}
+
+
+h3{
+	font-size:24px;
+	padding-top: 64px;
+    padding-bottom: 64px;
+	display:block;
+	margin:10px;
+	
+}
+
+.links {
+	font-size: 18px;
+}
+
+.item {
+	text-decoration:none;
+	width: 100%;
+    display: block;
+    padding: 8px 16px;
+    text-align: left;
+    border: none;
+    white-space: normal;
+    float: none;
+    outline: 0;
+	margin:10px;
+	cursor: pointer;
+	box-sizing: inherit;
+	color: #fff;
+}
+
+.item:hover{
+	background-color: #fff;
+	color: #f44336;
+}
+
+.container{
+	width:1200;
+	float:left;
+	margin-left: 340px;
+    margin-right: 40px;
+	
+}
+
+
+.header{
+	
+	margin-top:100px;
+
+	
+}
+
+
+.title{
+	font-size: 64px;
+	margin:10px;
+	font-weight: 400;
+}
+
+.subtitle{
+	font-size:48px;
+	color:#f44336;
+	margin:10px;
+	font-weight: 400;
+}
+
+hr{
+	width:50px;
+	border:5px solid red;
+	margin:20px 0;
+	border-radius:4px;
+	font-weight: 400;
+
+	
+}
+
+.float-left{
+	float:left;
+}
+
+.clear-both{
+	clear:both;
+}
+
+.grid{
+	height:1100px;
+}
+.grid-half{
+	width:48%;
+	height:auto;
+	padding:0 8px;;
+}
+
+.grid-half img{
+	margin-bottom: -6px;
+    margin-top: 16px;
+    opacity: 0.8;
+    cursor: pointer;
+	
+}
+img{
+	width: 100%;
+
+}
+
+.grid-half:hover img {
+  opacity: 1;
+}
+
+.team{
+     height:430px;
+	 filter: grayscale(75%);
+	 padding:0 8px;
+	 margin-bottom:16px;
+		
+}
+
+.team-item{
+	width:33.33%;
+	padding:0 8px;
+	height:auto;
+	margin-bottom:16px;
+	
+}
+
+.team img{
+	width:100%;
+	vertical-align: middle;
+	
+}
+
+.team-container{
+	padding: 0.01em 16px;
+	background-color: #f1f1f1;
+	display: block;
+	height:auto;
+	
+	
+
+}
+
+.team h3{
+	padding:0;
+	margin:10px 0;
+}
+
+.opacity{
+	opacity: 0.60;
+	margin:16px 0;
+}
+
+.margin-top{
+	margin-top:75px;
+}
+
+.half{
+	width:100%;
+	  padding: 0 8px;
+	   display: table;
+}
+
+.half-box{
+	width: 49%;
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+	text-align:center;
+	 padding: 0 8px;
+	
+}
+
+.basic{
+	    
+    border-bottom: 1px solid #ddd;
+	color: #fff;
+    background-color: #616161;
+	font-size: 24px;
+	    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.pro{
+	    border-bottom: 1px solid #ddd;
+    color: #fff;
+    background-color: #f44336;
+	font-size: 24px;
+	    padding-top: 32px;
+    padding-bottom: 32px;
+	
+}
+
+.list{
+	padding: 8px 16px;
+    border-bottom: 1px solid #ddd;
+	color: #000;
+	background-color: #f1f1f1;
+	padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.last{
+	border-bottom: none;
+	    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.button {
+	padding: 12px 24px;
+	border: none;
+    display: inline-block;
+	vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+	text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+	font: inherit;
+}
+
+.btn-basic{
+	color: #000;
+    background-color: #fff;
+	
+}
+
+.btn-basic:hover{
+	color:#fff;
+	background-color:#000;
+}
+
+.btn-pro{
+	color: #fff;
+    background-color: #f44336;
+}
+
+.btn-pro:hover{
+	color:#fff;
+	background-color:#000;
+}
+
+.contact{
+	width:100%;
+}
+
+.data{
+	    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.input{
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 8px;
+	
+}
+
+.submit{
+	width: 100%;
+	color: #fff;
+    background-color: #f44336;
+	padding: 12px 24px;
+	margin-bottom: 16px;
+	border: none;
+	    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+	cursor: pointer;
+    white-space: nowrap;
+	font:inherit;
+}
+.submit:hover{
+	color:#000;
+	background-color:#f1f1f1;
+}
+
+
+.end-page{
+	margin-top: 75px;
+    padding-right: 58px;
+	    color: #000;
+    background-color: #f1f1f1;
+	padding-top: 32px;
+    padding-bottom: 32px;
+	padding: 0.01em 16px;
+}
+
+.footer{
+	float: right;
+}
